@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:lang="http://www.springframework.org/schema/lang"
+       xmlns:contex="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/lang http://www.springframework.org/schema/lang/spring-lang.xsd
+        http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
+
+<!--    <bean id="dao" class="com.itheima.service.impl.BrandServiceImpl"/>-->
+<!--    <bean id="dao2" class="com.itheima.service.BrandService" abstract="true"/>-->
+<!--    <bean id="baseServlet" class="com.itheima.web.servlet.BaseServlet"/>-->
+    <contex:component-scan base-package="com.itheima"/>
+<!--    <bean id="brandServlet2" class="com.itheima.web.servlet.BrandServlet">-->
+<!--        <property name="brandService" ref="dao1"/>-->
+<!--    </bean>-->
+
+</beans>
